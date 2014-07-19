@@ -1,0 +1,15 @@
+2014-07-18 16:41:46,358 ERROR main squotes.db.DatabaseContext - JDBC driver for MySQL not found
+2014-07-18 16:41:59,743 ERROR Thread-0 squotes.db.DatabaseContext - java.sql.SQLException: No suitable driver found for jdbc:mysql://localhost/tempquotes?useAffectedRows=true
+2014-07-18 16:45:17,897 ERROR Thread-0 squotes.db.DatabaseContext - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown column 'isposted' in 'where clause'
+2014-07-18 16:47:55,996 ERROR Thread-0 squotes.db.DatabaseContext - java.lang.IllegalArgumentException: protocol = http host = null
+2014-07-18 16:48:25,297 ERROR Thread-0 squotes.db.DatabaseContext - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown column 'id' in 'where clause'
+2014-07-18 16:50:35,878 ERROR Thread-0 squotes.db.DatabaseContext - java.lang.IllegalArgumentException: protocol = http host = null
+2014-07-18 16:51:50,069 ERROR Thread-0 squotes.jobs.AutoPostJob - java.lang.IllegalArgumentException: protocol = http host = null
+2014-07-18 16:52:52,997 INFO Thread-0 squotes.jobs.AutoPostJob - 
+Sending 'POST' request to URL : http://localhost/squotes/v2/admin/quote
+2014-07-18 16:52:53,683 INFO Thread-0 squotes.jobs.AutoPostJob - Post parameters : language=english&content=To accomplish great things, we must not only act, but also dream, not only plan, but also believe.&author=Anatole France&admin_access_token=Ap$tick
+2014-07-18 16:52:56,835 INFO Thread-0 squotes.jobs.AutoPostJob - Response Code : 200
+2014-07-18 16:58:13,830 INFO Thread-0 squotes.jobs.AutoPostJob - 
+Sending 'POST' request to URL : http://localhost/squotes/v2/admin/quote
+2014-07-18 16:58:13,832 INFO Thread-0 squotes.jobs.AutoPostJob - Chosen temp quote: 2
+2014-07-18 16:58:13,832 INFO Thread-0 squotes.jobs.AutoPostJob - Response Code : 200
